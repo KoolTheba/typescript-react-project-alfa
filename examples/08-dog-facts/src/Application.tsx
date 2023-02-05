@@ -1,4 +1,4 @@
-import {useState, MouseEvent } from 'react';
+import {useState } from 'react';
 import { fetchDogFacts, DogFactType } from './dog-facts';
 import './Application.css';
 
