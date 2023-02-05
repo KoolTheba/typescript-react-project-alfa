@@ -1,0 +1,71 @@
+html, body, * {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+button, input[type="submit"] {
+  background-color: rgb(15, 139, 35);
+  color: white;
+  margin: 0 0.5em;
+  padding: 1em;
+  outline: none;
+  cursor: pointer;
+}
+
+input, label {
+  padding: 1em;
+}
+
+input:not([type="submit"]) {
+  display: block;
+  margin: 0.5em;
+}
+
+form {
+  padding: 0.5em;
+  margin: 1em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  text-align: center;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+main {
+  margin: 2em auto;
+  padding: 1em;
+  width: 600px;
+}
+
+.fact-input {
+  display: flex;
+}
+
+.fact-input label {
+  display: block;
+  width: 320px;
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+}
+
+.dog-fact {
+  padding-left: 1em;
+  margin: 1em 0;
+}
+
+h3 {
+  margin-top: 0;
+  padding: 1em;
+  color: rgb(15, 139, 35);
+  padding-bottom: 5px;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
