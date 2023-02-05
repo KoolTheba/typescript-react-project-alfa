@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { CharacterType, fetchCharacter } from './characters'
-import './App.css'
 
 const CharacterCard = ({character}:{character:CharacterType}) => {
   return (
