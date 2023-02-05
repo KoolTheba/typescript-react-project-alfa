@@ -2,7 +2,6 @@
 
 type BoxProps = {
   children: React.ReactNode,
-  // children: JSX.Element | JSX.Element[] ¿?
   style?: React.CSSProperties
 }
 
