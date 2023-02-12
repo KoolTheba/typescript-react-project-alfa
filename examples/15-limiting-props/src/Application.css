@@ -1,0 +1,28 @@
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+  border: 5px solid magenta;
+  font-weight: 700;
+  margin: 2em auto;
+  padding: 1em;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+button,
+input[type='submit'] {
+  border: 5px solid magenta;
+  color: white;
+  margin: 0 0.5em;
+  padding: 1em;
+  outline: none;
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
