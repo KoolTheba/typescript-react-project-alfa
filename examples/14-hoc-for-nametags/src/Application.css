@@ -1,0 +1,45 @@
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+main {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-shadow: 3px 3px 10px #ccc;
+  max-width: 500px;
+  margin: 4rem auto;
+}
+
+.main-header {
+  padding: 10px 0 1px 0;
+  background-color: red;
+  border-radius: 25px 25px 0 0;
+  color: white;
+}
+
+.main-header h1 {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.main-header p {
+  padding-top: 1rem;
+  margin-top: 0;
+  text-transform: lowercase;
+}
+
+footer {
+  background-color: red;
+  border-radius: 0 0 25px 25px;
+  padding: 10px;
+}
+
+.display-name p {
+  font-family: sans-serif;
+  font-size: 2em;
+  padding: 40px 0;
+}
