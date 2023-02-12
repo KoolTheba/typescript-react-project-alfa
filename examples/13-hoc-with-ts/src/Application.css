@@ -1,0 +1,53 @@
+html,
+body,
+* {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #999;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  background-color: white;
+  box-shadow: 1px 1px 3px #666;
+  border: 5px solid lighten(rgba(4, 5, 87, 0.575), 40%);
+  font-weight: 700;
+  margin: 2em auto;
+  padding: 1em;
+  width: 600px;
+}
+
+header {
+  font-size: 2em;
+  padding: 0.25em 0;
+  text-align: center;
+  background-color: magenta;
+}
+
+table {
+  width: 100%;
+  padding: 3em;
+}
+
+tr {
+  width: 100%;
+}
+
+th {
+  text-align: left;
+}
+
+td {
+  text-align: right;
+}
+
+.loading {
+  text-align: center;
+  padding: 2em 0;
+}
