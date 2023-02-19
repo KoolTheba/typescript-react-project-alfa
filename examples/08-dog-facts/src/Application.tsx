@@ -24,7 +24,7 @@ const Form = ({selectedCount, setSelectedCount, handleFetchDogFacts}:FormTypes) 
   );
 };
 
-const Fact = ({ fact }: { fact:  string}) => {
+const Fact = ({ fact }: { fact: string}) => {
   return (
     <article className="dog-fact">
       <p>{fact}</p>
