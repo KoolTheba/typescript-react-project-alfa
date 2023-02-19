@@ -1,0 +1,71 @@
+html, body, * {
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button, input[type="submit"] {
+  background-color: rgb(74, 107, 105);
+  border: 5px solid lighten(rgb(74, 107, 105), 30%);
+  border-radius: 10px;
+  box-shadow: 1px 1px 3px rgb(74, 107, 105);
+  color: white;
+  margin: 0 0.5em;
+  padding: 1em;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:active {
+  background-color: darken(rgb(74, 107, 105), 10%);
+  box-shadow: 1px 1px 1px rgb(74, 107, 105);
+}
+
+input[type="submit"]:hover {
+  background-color: darken(rgb(74, 107, 105), 5%);
+}
+
+main {
+  margin: 2em auto;
+  width: 600px;
+}
+
+.question {
+  border: 2px solid darken(rgb(74, 107, 105), 10);
+  margin: 1em 0;
+  box-shadow: 3px 3px 5px darken(rgb(74, 107, 105), 30);
+}
+
+header {
+  font-weight: 700;
+  background-color: lighten(rgb(74, 107, 105), 40);
+  border-bottom: 1px solid rgb(74, 107, 105);
+  padding: 1em;
+}
+
+.answer {
+  padding: 1em;
+}
+
+footer {
+  text-align: center;
+  padding: 0.5em 1em;
+  border-top: 1px solid rgb(74, 107, 105);
+  background-color: lighten(rgb(74, 107, 105), 45);
+}
+
+span {
+  transition: all 1s ease; 
+}
+
+.blurred {
+  color: transparent;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.clear {
+  color: inherit;
+}
